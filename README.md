@@ -18,4 +18,3 @@ The goal is to maximise each of the eight functions working within the following
 
 The function structures are largely unknown.
 There are only 13 opportunities to query the black box functions beyond the initial data.
-Results from the querying the black box functions take between 24hr and 1 week to be returned.
