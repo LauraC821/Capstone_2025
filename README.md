@@ -1,7 +1,6 @@
 # Capstone_2025
 
 ## Project Overview
-
 The capstone project is a **black box optimisation challenge** with the aim of identifying the maximum of 8 unknown functions. The project is reflective of real world bayesian optimisation problems, balancing exploration with exploitation to find global maxima with only limited queries of the true functions. 
 
 ### Inputs and Outputs
@@ -13,8 +12,13 @@ A valid 3D function input has the form form, [0.240001, 0.873317, 0.555556].
 Each function returns a single real valued output, for example 2.7963. 
 
 ## Objectives
-
 The goal is to maximise each of the eight functions working within the following constraints:
 
 The function structures are largely unknown.
 There are only 13 opportunities to query the black box functions beyond the initial data.
+
+## Methodology
+The primary method was bayesian optimisation with a Gaussian Process surrogate model, using a standard Sklearn implementaion, further details are given in the model card.
+
+## Results
+Local maximum that improved upon the base data were found for each function. As the true maximum remain unknown it is challenging to assess how successful the results were.
